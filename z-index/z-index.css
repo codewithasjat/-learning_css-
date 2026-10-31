@@ -1,0 +1,23 @@
+ .parent{
+    position: relative;
+    z-index: 1;
+    background-color: black;
+
+}
+  .box1{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    z-index: 3;
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    z-index: 11;
+}

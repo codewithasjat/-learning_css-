@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    background-color: burlywood;
+    padding: 4rem;
+    gap: 1rem;
+    grid-template-rows:repeat(3,1fr) ;
+    grid-template-columns: repeat(4,1fr);
+}
+
+div > div{
+    background-color: rgb(112, 48, 2);
+    border: 2px solid black;
+}
+
+.first{
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+ .second{
+    grid-column-start: 2;
+    grid-column-end: 4;
+} 
+
+.sixth{
+    grid-row: 2 / 4;
+    grid-column: 4 / 5;
+}

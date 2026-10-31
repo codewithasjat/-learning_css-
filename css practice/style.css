@@ -1,0 +1,59 @@
+ /*1. psedo selectror */
+
+/* input:focus {
+  border: 2px solid blue;
+}
+ li:last-child {
+  color: red;
+}
+
+li:first-child{
+    color: blueviolet;
+} */
+
+/* 2.cascade ,specificity,inheritance */
+
+/* Concept	Meaning
+Cascade	If specificity is equal, the later rule wins
+Specificity	More specific selectors override less specific ones
+Inheritance	Child elements can inherit styles from parents */
+
+
+/* div{
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 20px;
+
+ /* second  */
+   /* width: 200px;
+  padding: 20px;
+  border: 5px solid black;
+  margin: auto; 
+/* third part */
+    /* box-sizing: border-box; */
+   /* width: 200px; */
+   /* padding: 20px; */
+  /* border: 5px solid black;  */
+   /* border: 1px black solid;  */
+
+   /* fourth point  */
+    
+/* width: 300px */
+/* margin: auto;  */ 
+
+
+    
+/* } */ 
+
+/* .parent {
+  width: 400px;
+  background-color: black;
+}
+
+.child {
+  width: 50%;
+  background-color: brown;
+} */
